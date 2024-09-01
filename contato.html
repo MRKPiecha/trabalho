@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo da Vinci</title>
+    <style>
+        .container {
+            display: grid;
+            justify-content: center;/*centraliza o menu e cabeçalho*/
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: justify;
+        }
+
+        header {
+            background-color: #1826a8;        
+        }
+
+        ul { /*estilização lista*/
+            list-style-type: none;
+            color: #0d69c5;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #1826a8 2px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover { /*estilização ao passar mouse em link*/
+            background-color: #1826a8;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Marco Antonio Piecha dos Santos</h1>
+        <br>
+
+    </header>
+    <nav class="container">
+        <ul><!--Menu-->
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação e Cursos</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+
+        </aside>
+        <section class="principal"><!--Formulário-->
+            <h1>
+                Preencha o formulário abaixo:
+            </h1>
+            <form action="" method="post">
+                <table><!--Tabela para formulário padronizado-->
+                <tr>
+                    <th><label for="nome"> Nome:</label></th>
+                    <td><input type="text" name="nome" id="nome" ></input></th>
+                </tr>
+                <tr>
+                    <th><label for="nome"> E-mail:</label></th>
+                    <td><input type="email" name="email" id="email"></input></th>
+                </tr>
+                <tr>
+                    <th><label for="nome"> Deixe sua mensagem:</label></th>
+                    <td><textarea rows="5" cols="40">Deixe sua mensagem</textarea></input></th>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><button>Enviar</button></td>
+                </tr>
+                </table>
+            </form>
+            
+        </section>
+    
+</body>
+
+</html>

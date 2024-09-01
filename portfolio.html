@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leonardo da Vinci</title>
+    <style>
+        
+        .container {
+            display: grid;
+            justify-content: center;/*centraliza o menu e cabeçalho*/
+        }
+
+        .principal {
+            grid-column-start: 4;
+            grid-column-end: 12;
+            padding-left: 15px;
+            padding-right: 15px;
+            text-align: center;
+
+        }
+
+        header {
+            background-color: #1826a8;
+            
+        }
+
+        ul { /*estilização lista*/
+            list-style-type: none;
+
+            color: #0d69c5;
+        }
+
+        a,
+        a:link {
+            text-decoration: none;
+            padding: 8px 16px;
+            border: solid #1826a8 2px;
+        }
+
+        li {
+            float: left;
+        }
+
+        a:hover { /*estilização ao passar mouse em link*/
+            background-color: #1826a8;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="container">
+        <h1 style="color: white; text-align: center;">Marco Antonio Piecha dos Santos</h1>
+        <br>
+
+    </header>
+    <nav class="container">
+        <ul><!--Menu-->
+            <li><a href="index.html">Sobre mim</a></li>
+            <li><a href="formacao.html">Formação e Cursos</a></li>
+            <li><a href="portfolio.html">Portfólio</a></li>
+            <li><a href="contato.html">Contato</a></li>
+        </ul>
+    </nav>
+        </aside>
+        <section class="principal">
+            <h1>
+                Portfólio
+            </h1>
+            <!--imagens portfólio-->
+            <p>Diagrama Modelo Entidade-Relacionamento - Realizado no trabalho da disciplina de Banco de Dados Relacional</p>
+            <img src="diagrama.png" alt="Diagrama Modelo Entidade-Relacionamento" title="Diagrama Modelo Entidade-Relacionamento" width="30%">
+
+            <p>Protótipo de tela de aplicativa para doação de sangue - Realizado no Trabalho de conclusão de curso Técnico em informática</p>
+            <img src="prototipo.png" alt="Protótipo aplicativo" title="Protótipo aplicativo" width="20%">
+        </section>
+</body>
+
+</html>
